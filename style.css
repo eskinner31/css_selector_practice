@@ -1,0 +1,57 @@
+#partOne{
+  border: 2px solid green;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.orange{
+  color: orange;
+}
+
+#blue {
+  color: blue;
+}
+
+ol > li {
+  font-style: italic;
+}
+
+a[href*="example"]{
+  color: yellow;
+  text-transform: uppercase;
+}
+
+input[type="email"]{
+  border-radius: 30%;
+  border: 2px dotted red;
+}
+
+input:checked{
+  box-shadow: 10px 5px 5px black;
+}
+
+#lyrics::before{
+  content: "We Were Playing in the Sand ";
+  color: green;
+}
+#lyrics::after{
+  content: " You Told me you fell in love with it";
+  color: green;
+}
+
+p:nth-of-type(15):hover{
+  color: red;
+  background-color: green;
+}
+
+ul li:nth-child(2){
+  font-size: 30px;
+  font-weight: bold;
+}
+
+ul > li:nth-last-child(3){
+  color:brown;
+}

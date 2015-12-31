@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Selector Exercise</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- Select multiple elements  -->
+    <div id="partOne">
+      <h1>I'm an H1</h1>
+      <h2>I'm an H2</h2>
+      <h3>I'm an H3</h3>
+      <h4>I'm an h4</h4>
+    </div>
+
+    <!-- Class and ID selectors -->
+    <div id="partTwo">
+      <p class="orange">We should be orange</p>
+      <p class="orange">We should be orange</p>
+      <p class="orange">We should be orange</p>
+      <p class="orange" id="blue">Turn Me Blue</p>
+    </div>
+
+    <!-- Direct descendants -->
+     <div id="partThree">
+       <ul>
+         <li>Un
+           <ol>
+             <li>Ichi</li>
+             <li>Ni</li>
+             <li>San</li>
+           </ol></li>
+         <li>Deux</li>
+         <li>Trois</li>
+       </ul>
+     </div>
+
+    <!-- Attribute Selectors -->
+    <div id="partFour">
+      <a href="www.example.com">Go to Example Website</a>
+      <br>
+      <a href="www.google.example">Try this example site</a>
+      <br>
+      <a href="www.notademo.com">Not a demo site</a>
+      <br>
+      <input type="email" name="email" id="email"><label for="email">Collecting your information one email at a time</label>
+      <input type="text" name="text" id="text"><label for="text">Tell us why you're the awesomest</label>
+    </div>
+
+    <!-- pseudo selector challenges -->
+    <div id="partFive">
+      <input id="box1" type="checkbox" checked><label for="box1">  First Box</label>
+      <input id="box2" type="checkbox"><label for="box1">  Second Box</label>
+
+      <div>
+        <!-- Add lines of Tally Hall Hidden In The Sand lyrics ::before and ::after -->
+        <p id="lyrics">And You Found a Little Band</p>
+      </div>
+    </div>
+
+
+    <!-- nth-child and nth of type challenge -->
+    <div id="partSix">
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <div>
+        <ul>
+          <li>CSS</li>
+          <li>is</li>
+          <li>the</li>
+          <li>greatest</li>
+          <li>thing</li>
+          <li>on</li>
+          <li>the</li>
+          <li>planet</li>
+        </ul>
+        <ul>
+          <li>If</li>
+          <li>done</li>
+          <li>correctly</li>
+          <li>your</li>
+          <li>code</li>
+          <li>shouldn't</li>
+          <li>repeat</li>
+          <li>itself</li>
+        </ul>
+      </div>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>I'm the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+      <p>Be sure to choose the right one!!!</p>
+    </div>
+  </body>
+</html>
